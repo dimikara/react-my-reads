@@ -11,5 +11,7 @@ I import the router above and here I'm putting <App />
 */
 
 ReactDOM.render(
-    <BrowserRouter><App /></BrowserRouter>,
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
     document.getElementById('root'))
