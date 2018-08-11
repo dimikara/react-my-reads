@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 import SearchPage from './SearchPage'
 import MainPage from './MainPage'
@@ -7,7 +7,7 @@ import { Route } from 'react-router-dom'
 import * as BooksAPI from './BooksAPI'
 import './App.css';
 
-class BooksApp extends React.Component {
+class BooksApp extends Component {
   // The list of books is the first of the identified states.
   // It should live here in the App page as it basically appears here. 
   // "books" should be an array as this is the best way to represent them,
