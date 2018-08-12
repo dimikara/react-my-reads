@@ -70,7 +70,6 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 * [OnChange event using React JS for drop down.](https://stackoverflow.com/questions/28868071/onchange-event-using-react-js-for-drop-down)
 * React Rooter from [React Training](https://reacttraining.com/react-router/web/example/url-params).
 * Favicon generated via [Favicon & App Icon Generator](https://www.favicon-generator.org/).
-* Background Photo by Clarisse Meyer on [Unsplash](https://unsplash.com/photos/jKU2NneZAbI).
 
 
 ## Screenshots
