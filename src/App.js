@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
-import SearchPage from './SearchPage'
-import MainPage from './MainPage'
+import SearchPage from './Components/SearchPage'
+import MainPage from './Components/MainPage'
 import { Route } from 'react-router-dom'
 
 import * as BooksAPI from './BooksAPI'
