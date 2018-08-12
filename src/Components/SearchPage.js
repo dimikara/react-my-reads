@@ -117,7 +117,7 @@ class SearchPage extends Component {
                         * When writing in the Search field, the query state changes
                         * according to the value 
                         */
-                        onChange={(event) => this.updateQuery(event.target.value)}
+                        onChange={(e) => this.updateQuery(e.target.value)}
                         />
                     </div>
                 </div>
@@ -137,15 +137,16 @@ class SearchPage extends Component {
                             let shelf = "none"
                             /* 
                             * Mapping through all the "books".
-                            * If a matched book belongs to the books i.e. to a shelf,
-                            * then this book will get the shelf value that the book
-                            * has in "books"; otherwise it gets the value "none".
+                            * If a matched book does not belong to the books i.e. to 
+                            * a category ("shelf"), then this book's shelf will get 
+                            * the value "none". Otherwise, it gets the shelf value 
+                            * that the book already has in "books".
                             */
                             this.props.books.forEach(book => {
-                                if (book.id === matchedBook.id) {
-                                shelf = book.shelf
+                                if (book.id !== matchedBook.id) {
+                                    matchedBook.shelf = "none"
                                 } else {
-                                    "none"
+                                    shelf = book.shelf
                                 }
                             })
                             
