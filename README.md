@@ -29,17 +29,17 @@ As a starting point, I was given a starter static template without any of the Re
 
 To run the project, download or clone the repository in your computer:
 
-    `$ git clone https://github.com/dimikara/react-my-reads.git`
+    $ git clone https://github.com/dimikara/react-my-reads.git
 
 and follow the instructions below.
 
 In the repository folder: 
 * install all project dependencies with 
 
-        `npm install`
+        npm install
 * start the development server with 
 
-        `npm start`
+        npm start
 
 Please note that the backend server -against which the web app was developped- was provided by Udacity. The provided file [`BooksAPI.js`](src/BooksAPI.js) contains the methods I used to perform necessary operations on the backend:
 
