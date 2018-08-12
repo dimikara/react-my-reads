@@ -42,6 +42,8 @@ Please note that the backend server -against which the web app was developped- w
 * `update`
 * `search`
 
+For more information on how these methods are used exactly, please refer to the original [Udacity repository](https://github.com/udacity/reactnd-project-myreads-starter).
+
 
 ## App Functionality
 
@@ -62,11 +64,11 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 ## Credits & Helpful Links
 
 * Starter code provided by [**Udacity**](https://github.com/udacity/reactnd-project-myreads-starter).
-* [React documentation]()
+* [React documentation](https://reactjs.org/), plus the very helpful section: [Thinking in React](https://reactjs.org/docs/thinking-in-react.html).
 * Presentation by [**Maeva NAP**](https://www.youtube.com/watch?v=i6L2jLHV9j8&feature=youtu.be).
-* The project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). For more information on how to perform common tasks, [visit](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-* [OnChange event using React JS for drop down](https://stackoverflow.com/questions/28868071/onchange-event-using-react-js-for-drop-down)
-* React Rooter from [React Training](https://reacttraining.com/react-router/web/example/url-params)
+* The project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). For more information on how to perform common tasks, visit [this page](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+* [OnChange event using React JS for drop down.](https://stackoverflow.com/questions/28868071/onchange-event-using-react-js-for-drop-down)
+* React Rooter from [React Training](https://reacttraining.com/react-router/web/example/url-params).
 * Favicon generated via [Favicon & App Icon Generator](https://www.favicon-generator.org/).
 * Background Photo by Clarisse Meyer on [Unsplash](https://unsplash.com/photos/jKU2NneZAbI).
 
