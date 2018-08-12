@@ -98,3 +98,4 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 * Creation of one component for each shelf and updating the app accordingly.
 * Change the view by updating the css file (add [Bootstrap React](https://reactstrap.github.io/)?).
 * Find a way to use the NoSearchResults Component to inform the user when there are no results that match their search query; or maybe use another method for this.
+* Deploying the project live in GitHub Pages.
