@@ -90,9 +90,9 @@ class SearchPage extends Component {
                 from one component into another. It is imported from 'react-router-dom'.
                 */}
                     <Link 
-                    to="/"
-                    className="close-search"
-                        >Close</Link>
+                        to="/"
+                        className="close-search"
+                    >Close</Link>
                 
                     <div className="search-books-input-wrapper">
                     {/*
@@ -140,13 +140,13 @@ class SearchPage extends Component {
                             * If a matched book belongs to the books i.e. to a shelf,
                             * then this book will get the shelf value that the book
                             * has in "books"; otherwise it gets the value "none".
-                            * 
-                            * This 
                             */
-                            this.props.books.map(book => {
+                            this.props.books.forEach(book => {
                                 if (book.id === matchedBook.id) {
                                 shelf = book.shelf
-                                } else {'none'};
+                                } else {
+                                    "none"
+                                }
                             })
                             
                             return(
