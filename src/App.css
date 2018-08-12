@@ -5,11 +5,12 @@ body {
   line-height: 1.5;
 }
 body, .app {
-  /* I tried to update the background with an image. Not sure why it does not work.
-  * background-image: url("./clarisse-meyer-162874-unsplash.jpg")
-  * To check!
+ /* 
+  * background-image: url('../src/Media/hush-naidoo-498053-unsplash.jpg');
+  * background-position: center;
+  * opacity: 0.8; 
   */
-  background: linear-gradient(to bottom right, #ffffcc 0%, #663300 150%);
+ background: linear-gradient(to bottom right, #ffffcc 0%, #663300 150%);
 }
 
 /* main page */
@@ -59,7 +60,7 @@ body, .app {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #7e6853;
+  background: #663300;
   background-image: url('./icons/add.svg');
   background-repeat: no-repeat;
   background-position: center;
