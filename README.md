@@ -1,3 +1,7 @@
+[![Depfu](https://badges.depfu.com/badges/ffc18d5b7061ef25e962a4f34bfc50e5/status.svg)](https://depfu.com)
+[![Depfu](https://badges.depfu.com/badges/ffc18d5b7061ef25e962a4f34bfc50e5/overview.svg)](https://depfu.com/github/dimikara/react-my-reads?project_id=11514)
+
+
 # MyReads Project
 
 
