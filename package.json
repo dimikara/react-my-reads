@@ -3,7 +3,7 @@
     "prop-types": "^15.8.1",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "react-router-dom": "^7.14.1",
+    "react-router-dom": "^7.15.0",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {
